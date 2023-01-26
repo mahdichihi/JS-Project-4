@@ -1,0 +1,90 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url(/images/swimming-wallpaper.jpg) no-repeat center center/
+        cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgb(22, 22, 22);
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+    color: rgb(49, 49, 49);
+}
+
+.buttons {
+    text-align: center;
+    padding: 35px;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 2rem;
+    /* padding: 10px; */
+    color: #fff;
+}
+
+#play {
+    background-color: green;
+    padding: 10px 14px;
+}
+#play:hover {
+    box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
+}
+
+#pause {
+    padding: 10px 16px;
+    background-color: orange;
+}
+#pause:hover {
+    box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
+}
+
+#reset {
+    padding: 10px;
+    background-color: red;
+}
+#reset:hover {
+    box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
+}
+
+#lap {
+    padding: 10px;
+    background-color: red;
+}
+#lap:hover {
+    box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
+}
+
+#lap-times {
+    list-style-type: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5em;
+}
