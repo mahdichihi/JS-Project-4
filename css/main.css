@@ -8,8 +8,8 @@
 }
 
 body {
-    background: url(/images/swimming-wallpaper.jpg) no-repeat center center/
-        cover;
+    background: url(/images/olympic_runner-wallpaper.jpg) no-repeat center
+        center/ cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -18,10 +18,11 @@ body {
 
 .container {
     width: 60%;
-    height: fit-content;
-    background-color: rgb(255, 255, 255);
+    height: 450px;
+    background-color: rgb(255 255 255 / 84%);
     border-radius: 30px;
-    box-shadow: 0 0 30px rgb(22, 22, 22);
+    box-shadow: 0 0 30px rgb(255 255 255);
+    padding: 30px;
 }
 
 #timer {
@@ -29,30 +30,31 @@ body {
     font-size: 72px;
     text-align: center;
     margin: 0px auto;
-    padding: 35px;
-    color: rgb(49, 49, 49);
+    color: rgb(70 70 70);
 }
 
 .buttons {
-    text-align: center;
-    padding: 35px;
+    margin: auto;
+    width: fit-content;
 }
 
 button {
     margin: 0 10px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button i {
     font-size: 2rem;
-    /* padding: 10px; */
+    padding: 10px;
     color: #fff;
 }
 
 #play {
     background-color: green;
     padding: 10px 14px;
+    border-radius: 5px;
 }
 #play:hover {
     box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
@@ -61,6 +63,7 @@ button i {
 #pause {
     padding: 10px 16px;
     background-color: orange;
+    border-radius: 5px;
 }
 #pause:hover {
     box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
@@ -69,14 +72,16 @@ button i {
 #reset {
     padding: 10px;
     background-color: red;
+    border-radius: 5px;
 }
 #reset:hover {
     box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
 }
 
 #lap {
-    padding: 10px;
-    background-color: red;
+    padding: 10px 12px;
+    background-color: maroon;
+    border-radius: 5px;
 }
 #lap:hover {
     box-shadow: 0px 0px 4px 2px rgb(175, 173, 173);
@@ -86,5 +91,11 @@ button i {
     list-style-type: none;
     text-align: center;
     font-size: 2rem;
-    padding: 0.5em;
+    margin-top: 13px;
+    height: 220px;
+    color: rgb(115, 27, 27);
+}
+
+#lap-times li {
+    transition: 1s;
 }
